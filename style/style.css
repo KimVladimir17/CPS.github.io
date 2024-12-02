@@ -9,10 +9,12 @@
     scrollbar-width: none;
 }
 
-.services__list-name, .icon-name, .icon, .logo{
+.services__list-name,
+.icon-name,
+.icon,
+.logo {
     cursor: pointer;
 }
-
 
 .main {
     background: #F8F8F8;
@@ -34,6 +36,7 @@
     background: #fff;
     display: none;
 }
+
 
 .header__left {
     display: flex;
@@ -57,7 +60,6 @@
     display: flex;
     position: relative;
 }
-
 
 .item-icon {
     margin-left: 16px;
@@ -87,16 +89,17 @@
     background: #EAEAEA;
 }
 
+
 .container {
-    max-width: 1140px;
+    max-width: 1120px;
     width: 100%;
     padding: 42px 25px;
     margin: 0 auto;
 }
 
-.title{
+.title {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .title__name {
@@ -119,20 +122,21 @@
     line-height: 40px;
 }
 
-.title__items{
+.title__items {
     display: flex;
 }
-.title__items-icon{
+
+.title__items-icon {
     display: flex;
     align-items: center;
     font-weight: 500;
 }
 
-.title__items-icon:first-child{
+.title__items-icon:first-child {
     margin-right: 32px;
 }
 
-.services{
+.services {
     margin-top: 8px;
 }
 
@@ -196,7 +200,8 @@
     display: inline-block;
 }
 
-.picture2, .picture3{
+.picture2,
+.picture3 {
     display: none;
 }
 
@@ -211,7 +216,7 @@
 
 
 
-@media(max-width: 768px) {
+@media (320px <= width <= 1120px) {
     .header {
         padding: 24px 16px;
         display: flex;
@@ -254,12 +259,13 @@
         margin-top: 10px;
     }
 
-    .picture2{
+    .picture2 {
         display: block;
         width: 100%;
     }
 
-    .picture1, .picture3{
+    .picture1,
+    .picture3 {
         display: none;
     }
 
@@ -268,8 +274,7 @@
 
 
 
-@media(max-width: 320px) ,(orientation: portrait)  {
-
+@media (320px <= width <= 768px){
     .contact-icon,
     .header__left>.item-pipe {
         display: none;
@@ -308,7 +313,7 @@
         margin-right: 0;
         line-height: 18px;
     }
-    
+
     .elem-text>.text-span-1 {
         display: none;
     }
@@ -318,13 +323,13 @@
         margin-bottom: 16px;
     }
 
-    .picture3{
+    .picture3 {
         display: block;
         width: 100%;
     }
 
-    .picture1, .picture2{
+    .picture1,
+    .picture2 {
         display: none;
     }
 }
-
